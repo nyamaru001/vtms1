@@ -1,0 +1,15 @@
+{
+  "name": "vtms-db-seed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone seeder for VTMS demo users with bcrypt-hashed passwords",
+  "main": "seed-users.js",
+  "scripts": {
+    "seed": "node seed-users.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.0"
+  }
+}
